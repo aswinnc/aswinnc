@@ -70,8 +70,7 @@
 
 ## 📊 GitHub Analytics
 
-<p align="center">
-  <table align="center" border="0" cellpadding="0" cellspacing="0">
+<table align="center" border="0" cellpadding="0" cellspacing="0">
     <tr>
       <td valign="top">
         <img src="https://github-readme-stats.vercel.app/api?username=aswinnc&show_icons=true&theme=radical&count_private=true" height="180" alt="GitHub Stats" />
@@ -81,7 +80,6 @@
       </td>
     </tr>
   </table>
-</p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aswinnc&layout=compact&theme=radical" alt="Top Languages" />
