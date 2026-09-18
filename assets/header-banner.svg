@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" width="100%" height="230">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0b1120"/>
+    <stop offset="55%" stop-color="#131a36"/>
+    <stop offset="100%" stop-color="#0b1120"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06"/>
+    <stop offset="50%" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#ffffff" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="name" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="100%" stop-color="#d6dcff"/>
+  </linearGradient>
+  <linearGradient id="accent" gradientUnits="userSpaceOnUse" x1="56" y1="0" x2="176" y2="0">
+    <stop offset="0%" stop-color="#d946ef"/>
+    <stop offset="50%" stop-color="#8b5cf6"/>
+    <stop offset="100%" stop-color="#06b6d4"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-60 0; 60 0; -60 0" dur="7s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="mono" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#d946ef"/>
+    <stop offset="50%" stop-color="#8b5cf6"/>
+    <stop offset="100%" stop-color="#06b6d4"/>
+  </linearGradient>
+  <radialGradient id="haze" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.22"/>
+    <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+  </pattern>
+  <clipPath id="frame"><rect x="1" y="1" width="898" height="228" rx="14"/></clipPath>
+</defs>
+<rect x="0" y="0" width="900" height="230" rx="14" fill="url(#bg)"/>
+<g clip-path="url(#frame)">
+<rect x="450" y="0" width="450" height="230" fill="url(#grid)"/>
+<rect x="450" y="0" width="140" height="230" fill="url(#bg)" opacity="0.9"/>
+<rect x="0" y="0" width="900" height="230" fill="url(#sheen)"/>
+<ellipse cx="740" cy="118" rx="230" ry="140" fill="url(#haze)"/>
+<g transform="translate(740 118)">
+<circle r="96" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+<circle r="72" fill="none" stroke="url(#mono)" stroke-opacity="0.35" stroke-width="1" stroke-dasharray="3 9" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="80s" repeatCount="indefinite"/></circle>
+<text x="0" y="54" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="150" fill="url(#mono)" fill-opacity="0.07" stroke="url(#mono)" stroke-opacity="0.75" stroke-width="1.2">A<animate attributeName="stroke-opacity" values="0.55;0.9;0.55" dur="6s" repeatCount="indefinite"/></text>
+</g>
+<text x="56" y="64" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="600" font-size="11" letter-spacing="3" fill="#94a3b8">SOFTWARE DEVELOPER  ·  ORBITZ IT SOLUTION</text>
+<text x="54" y="118" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="54" letter-spacing="-0.5" fill="url(#name)">Aswin N C</text>
+<rect x="56" y="132" width="120" height="3" rx="1.5" fill="url(#accent)"/>
+<text x="56" y="166" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="400" font-size="15" fill="#cbd5e1">Building production web &amp; mobile applications end to end.</text>
+<circle cx="59" cy="192" r="3" fill="#d946ef"/>
+<text x="69" y="196" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="500" font-size="12" letter-spacing="1" fill="#94a3b8">Python</text>
+<circle cx="171" cy="192" r="3" fill="#8b5cf6"/>
+<text x="181" y="196" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="500" font-size="12" letter-spacing="1" fill="#94a3b8">Django</text>
+<circle cx="283" cy="192" r="3" fill="#06b6d4"/>
+<text x="293" y="196" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="500" font-size="12" letter-spacing="1" fill="#94a3b8">React</text>
+<circle cx="395" cy="192" r="3" fill="#22c55e"/>
+<text x="405" y="196" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="500" font-size="12" letter-spacing="1" fill="#94a3b8">REST APIs</text>
+</g>
+<rect x="0.5" y="0.5" width="899" height="229" rx="14" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+<rect x="120" y="0.5" width="660" height="1" fill="url(#edge)"/>
+</svg>
