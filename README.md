@@ -26,7 +26,7 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=aswinnc&style=flat-square&color=64748b&label=PROFILE+VIEWS" alt="Profile Views" />
-  <img src="https://img.shields.io/badge/Open%20to%20Collaboration-475569?style=flat-square" alt="Open to collaboration" />
+  <img src="https://img.shields.io/badge/Software%20Developer-475569?style=flat-square" alt="Software Developer" />
   <img src="https://img.shields.io/badge/Based%20in%20India-475569?style=flat-square" alt="Based in India" />
 </p>
 
